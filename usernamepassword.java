@@ -1,22 +1,25 @@
 import java.util.Scanner;
 
+/**
+ * usernamepassword
+ */
 public class usernamepassword {
-      public static void main(String[] args) {
-         final String  contrasenabase = "123";
-        String  usuario, contrasena;
-        
+
+    public static void main(String[] args) {
+         final String  CONTRASENABASE = "123";
+         final String  USERNAME = "santiago";
+        String  username, password;
     Scanner scanner = new Scanner(System.in);
-    System.out.println("Ingresa tu username");
-    usuario = scanner.next();
+    
     do {
-        System.out.println("Digite tu password");
-        contrasena = scanner.next();
+        System.out.println("Digita tu username");
+        username = scanner.nextLine();
+        System.out.println("Digite password");
+    password = scanner.nextLine();
+} while ((password.equals(CONTRASENABASE) == false) && (username.equals(USERNAME) == false) );
+scanner.close();
+ System.out.println("Bienvenido al sistema ");
 
-
-    } while (contrasena.equals(contrasenabase) == false);
-    scanner.close();
-     System.out.println("Bienvenido al sistema ");
-
-    }
 }
+    }
 
