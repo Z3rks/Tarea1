@@ -24,7 +24,7 @@ public static void main(String[] args) {
             System.out.println("Resta: " + (n1 - n2));
             System.out.println("Multiplicación: " + (n1 * n2));
             System.out.println("División: " + (n1 / n2));
-            System.out.println("¿Desea seguir operando? Si=1, No=0");
+            System.out.println("¿Quieres seguir operando? Si=1, No=0");
 
             i = scanner.nextInt();
 
