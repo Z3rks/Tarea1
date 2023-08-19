@@ -7,7 +7,7 @@ public class calculadora {
 
 public static void main(String[] args) {
 
-    System.out.println("Digite los numeros para operar");
+    System.out.println("Pon los numeros para operar");
    Scanner scanner = new Scanner(System.in);
    int n1 = scanner.nextInt();
    int n2 = scanner.nextInt();
